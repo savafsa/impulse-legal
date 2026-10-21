@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impulse Terms & Conditions</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one readable column, like a printed notice. */
+:root {
+  --bg: #f7f8f6; --surface: #ffffff; --fg: #1d2421; --muted: #59645f; --rule: #d9dfdb; --accent: #2f6b55;
+  --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --surface: #1b211e; --fg: #e6ebe8; --muted: #a2ada8; --rule: #2e3833; --accent: #7cc4a5; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --surface: #1b211e; --fg: #e6ebe8; --muted: #a2ada8; --rule: #2e3833; --accent: #7cc4a5; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 48px 64px; }
+main { max-width: 42rem; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+header { display: flex; flex-direction: column; gap: 8px; padding-bottom: 24px; border-bottom: 1px solid var(--rule); }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(2rem, 6vw, 2.6rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 14px; margin: 0; }
+section { display: flex; flex-direction: column; gap: 10px; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.3rem; margin: 0; text-wrap: balance; }
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: flex; flex-direction: column; gap: 6px; }
+.keys { display: grid; grid-template-columns: max-content 1fr; gap: 8px 16px; background: var(--surface); border: 1px solid var(--rule); padding: 16px 18px; }
+.keys dt { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-weight: 600; color: var(--accent); }
+.keys dd { margin: 0; min-width: 0; }
+.cta { background: var(--surface); border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: 16px 18px; }
+code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .92em; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <span class="eyebrow">Impulse SMS</span>
+    <h1>Terms &amp; Conditions</h1>
+    <p class="meta">Operated by Savannah Afsahi, sole proprietor · Effective October 21, 2026</p>
+  </header>
+
+  <section>
+    <h2>SMS Terms</h2>
+    <p>These SMS terms apply to text messages from Impulse, a program of Savannah Afsahi (sole proprietor).</p>
+  </section>
+
+  <section>
+    <h2>Program</h2>
+    <p>Impulse is a private personal-assistant text messaging program sent from (650) 532-7465. It sends reminders, calendar updates, replies to the recipient's own texts, and outbound approval requests (with a 4-digit reference number) before errands are completed. It has a single recipient, the operator.</p>
+  </section>
+
+  <section>
+    <h2>How to opt in</h2>
+    <p class="cta">Text <code>START</code> to (650) 532-7465 to receive Impulse messages. You will receive: "Impulse: You're set up to get reminders and assistant replies. Msg frequency varies. Msg &amp; data rates may apply. Reply HELP for help, STOP to opt out."</p>
+  </section>
+
+  <section>
+    <h2>Keywords</h2>
+    <dl class="keys">
+      <dt>START</dt><dd>Subscribe, or resume after opting out.</dd>
+      <dt>STOP</dt><dd>Cancel at any time. You will get one confirmation and no further messages.</dd>
+      <dt>HELP</dt><dd>Get help information.</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2>Frequency and cost</h2>
+    <p>Message frequency varies with use. Message and data rates may apply. Check with your mobile carrier for details.</p>
+  </section>
+
+  <section>
+    <h2>Carriers</h2>
+    <p>Carriers are not liable for delayed or undelivered messages.</p>
+  </section>
+
+  <section>
+    <h2>Privacy</h2>
+    <p>See the <a href="https://savafsa.github.io/impulse-legal/" target="_blank" rel="noopener">Impulse Privacy Policy</a>. We do not sell or share your SMS opt-in data or personal information with third parties for marketing purposes.</p>
+  </section>
+
+  <section>
+    <h2>Support</h2>
+    <p>Text <code>HELP</code> to (650) 532-7465.</p>
+  </section>
+</main>
+
+</body>
+</html>
