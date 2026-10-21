@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Impulse Privacy Policy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one readable column, like a printed notice. */
+:root {
+  --bg: #f7f8f6; --surface: #ffffff; --fg: #1d2421; --muted: #59645f; --rule: #d9dfdb; --accent: #2f6b55;
+  --display: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --surface: #1b211e; --fg: #e6ebe8; --muted: #a2ada8; --rule: #2e3833; --accent: #7cc4a5; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --surface: #1b211e; --fg: #e6ebe8; --muted: #a2ada8; --rule: #2e3833; --accent: #7cc4a5; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.65;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 48px 64px; }
+main { max-width: 42rem; margin: 0 auto; display: flex; flex-direction: column; gap: 28px; }
+header { display: flex; flex-direction: column; gap: 8px; padding-bottom: 24px; border-bottom: 1px solid var(--rule); }
+.eyebrow { font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+h1 { font-family: var(--display); font-weight: 600; font-size: clamp(2rem, 6vw, 2.6rem); line-height: 1.15; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 14px; margin: 0; }
+section { display: flex; flex-direction: column; gap: 10px; }
+h2 { font-family: var(--display); font-weight: 600; font-size: 1.3rem; margin: 0; text-wrap: balance; }
+p, ul { margin: 0; }
+ul { padding-left: 1.2rem; display: flex; flex-direction: column; gap: 6px; }
+.pledge { background: var(--surface); border: 1px solid var(--rule); border-left: 3px solid var(--accent); padding: 16px 18px; font-weight: 500; }
+code { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: .92em; }
+a { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<main>
+  <header>
+    <span class="eyebrow">Impulse SMS</span>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Operated by Savannah Afsahi, sole proprietor · Effective October 21, 2026</p>
+  </header>
+
+  <section>
+    <h2>About this service</h2>
+    <p>Impulse is a private personal assistant that sends text messages from (650) 532-7465 to a single recipient: the person who operates it. It sends reminders, calendar updates, replies to that person's own texts, and requests for approval before any errand is completed. There is no public sign-up, and no other phone numbers receive messages.</p>
+  </section>
+
+  <section>
+    <h2>Information we collect</h2>
+    <ul>
+      <li>The recipient's mobile phone number.</li>
+      <li>The content of text messages sent to and from the service.</li>
+      <li>Calendar events and reminders the recipient asks the service to read or create.</li>
+      <li>Opt-in and opt-out status (whether the recipient has texted START or STOP).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How we use it</h2>
+    <p>This information is used only to deliver the messages the recipient asked for: answering their texts, sending reminders they scheduled, and asking for approval before acting on their behalf. It is not used for advertising or marketing.</p>
+  </section>
+
+  <section>
+    <h2>Sharing</h2>
+    <p class="pledge">We do not sell or share your SMS opt-in data or personal information with third parties for marketing purposes.</p>
+    <p>Messages pass through the service providers needed to deliver them: Twilio, which sends and receives the texts, and Amazon Web Services, which hosts the assistant. These providers process data only to provide their services. Text messaging originator opt-in data and consent will not be shared with any third parties, except aggregators and providers of the Text Message services.</p>
+  </section>
+
+  <section>
+    <h2>Storage and retention</h2>
+    <p>Data is stored in the operator's own Amazon Web Services account. Conversation history is kept for up to 30 days, service logs for up to 14 days, and approval records for 24 hours, after which they are deleted automatically.</p>
+  </section>
+
+  <section>
+    <h2>Your choices</h2>
+    <p>Reply <code>STOP</code> at any time to stop receiving messages, and <code>START</code> to resume. Reply <code>HELP</code> for help. Message frequency varies. Message and data rates may apply.</p>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>For questions about this policy, text <code>HELP</code> to (650) 532-7465.</p>
+  </section>
+</main>
+
+</body>
+</html>
